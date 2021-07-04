@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 1s linear;
+}
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+#header{
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    z-index: 1000;
+
+}
+.fa-hamburger{
+    font-size: 4rem;
+    z-index: 10000;
+    color:rgb(233, 233, 16); 
+    cursor: pointer;
+    display: none;
+}
+.logo img{
+    height: 4rem;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 4rem;
+
+}
+a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    color: rgb(233, 233, 16);
+    text-decoration: none;
+}
+#all{
+    background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.6));
+    min-height: 100vh;
+}
+
+@media(max-width:768px){
+    #header.fa-hamburger{
+            display: block;
+        }
+    
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            font-weight: 35rem;
+            background: #000;
+        }
+    
+       nav ul{
+            flex-flow: column;
+            justify-content: center;
+            height: 100vh;
+        }
+
+}     
+    
+    
+    
+
