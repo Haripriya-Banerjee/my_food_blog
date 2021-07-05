@@ -1,0 +1,37 @@
+#outerbox{ 
+   
+}
+#sliderbox{
+    position: relative;
+    /* height: auto; */
+    width: 4500px;
+    animation-name: slide;
+    animation-duration: 15s;
+}
+#sliderbox img{
+    float: left;
+
+}
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+    20%{
+        left: 0px;
+    }
+    25%{
+        left: -1500px;
+    }
+    45%{
+        left: -1500px;
+    }
+    50%{
+        left: -3000px;
+    }
+    70%{
+        left: -3000px;
+    }
+    75%{
+        left:-4500px;
+    }
+}

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
 
- *{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,5 +85,48 @@ nav a:hover{
 }     
     
     
+     */
+*
+{
+    margin: 0;
+    padding: 0;
+}     
+
+#menu ul{
+    list-style:none;
+}     
+
+#menu ul li
+{
+    background-color: black;
+    border: 1px solid white;
+    width: 278px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;   
+    float: left;
+    position: relative;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+#menu ul li a:hover{
+    background-color: rgb(204, 204, 20);
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover > ul{
+    display:block;
+}
+
+
+
+
     
 
