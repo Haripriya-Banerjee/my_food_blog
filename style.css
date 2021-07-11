@@ -72,14 +72,14 @@ body{
     align-items: center;
 }
 .all_menu_pro{
-    border: 0px solid red;
+    border: 2px solid red;
     width: 370px;
     padding: 2rem;
     height: 290px;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 5px 5px black; 
+    /* box-shadow: 3px 3px black; */
 }
 .d-menu{
     list-style: none;
