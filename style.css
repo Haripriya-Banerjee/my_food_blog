@@ -72,16 +72,21 @@ body{
     align-items: center;
 }
 .all_menu_pro{
-    border: 2px solid red;
+    border: 0px solid red;
     width: 370px;
     padding: 2rem;
     height: 290px;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* box-shadow: 3px 3px black; */
+    box-shadow: 5px 5px 5px 5px #A09D9D ;
+    transition: transform 0.3s;
+}
+.all_menu_pro:hover{
+    transform: scale(1.1);
 }
 .d-menu{
+
     list-style: none;
     position: absolute;
     top: 6rem;
@@ -114,6 +119,26 @@ body{
     font-size: 17px;
     justify-content: center;
 }
+
+.footer{
+    height: 220px;
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_box{
+    height: 220px;
+    width: 18%;
+    /* border: 2px solid blue; */
+    float: left;
+    color: cornsilk;
+    text-align: center;
+}
+
+
 
 
 
