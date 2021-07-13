@@ -72,10 +72,10 @@ body{
     align-items: center;
 }
 .all_menu_pro{
-    border: 0px solid red;
+    border: 2px solid red;
     width: 370px;
     padding: 2rem;
-    height: 290px;
+    height: 410px;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -136,6 +136,17 @@ body{
     float: left;
     color: cornsilk;
     text-align: center;
+}
+.btn{
+    border: 2px solid green;
+    height:50px;
+    display: flex;
+    justify-content: center;
+
+}
+.btn input{
+    height: 20px;
+    
 }
 
 
