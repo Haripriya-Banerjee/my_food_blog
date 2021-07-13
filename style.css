@@ -47,6 +47,7 @@ body{
 }
 .nav-item li:hover .d-menu{
     opacity: 1;
+    visibility: visible;
     
 
 }
@@ -72,10 +73,10 @@ body{
     align-items: center;
 }
 .all_menu_pro{
-    border: 2px solid red;
+    border: 0px solid red;
     width: 370px;
     padding: 2rem;
-    height: 410px;
+    height: 430px;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -83,7 +84,7 @@ body{
     transition: transform 0.3s;
 }
 .all_menu_pro:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 .d-menu{
 
@@ -96,6 +97,7 @@ body{
     transition: all 0.3s ease-in-out;
     padding-bottom: 1rem;
     padding-right: 1rem;
+    visibility: hidden;
 
 }
 .all_menu_pro img{
@@ -119,6 +121,10 @@ body{
     font-size: 17px;
     justify-content: center;
 }
+.title b{
+    color: rgb(122, 16, 16);
+    font-size: 18px;
+}
 
 .footer{
     height: 220px;
@@ -130,7 +136,7 @@ body{
     align-items: center;
 }
 .footer_box{
-    height: 220px;
+    height: 230px;
     width: 18%;
     /* border: 2px solid blue; */
     float: left;
@@ -138,15 +144,51 @@ body{
     text-align: center;
 }
 .btn{
-    border: 2px solid green;
-    height:50px;
+    border: 0px solid green;
+    height:60px;
     display: flex;
     justify-content: center;
 
 }
 .btn input{
     height: 20px;
+    width:80px ;
+    border-radius: 7px;
+    background-color:orange ;
+    border: 0px;
+    box-shadow: 3px 3px 3px 3px #A09D9D ;
     
+}
+.btn input:hover{
+    background-color: rgb(172, 112, 2);
+   
+}
+table{
+    height: 430px;
+
+}
+input{
+    width: 100%;
+    height: 35px;
+    border: 2px solid rgb(172, 112, 2);
+    font-size: 20px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(172, 112, 2);
+    font-size: 20px;
+
+} 
+select{
+    width: 100%;
+    height: 35px;
+    border: 2px solid rgb(172, 112, 2);
+    font-size: 20px;
+
+}
+input[type=button]:hover{
+    background-color: rgb(172, 112, 2);
 }
 
 
