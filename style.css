@@ -208,6 +208,13 @@ input[type=button]:hover{
     float: left;
 }
 
+@media(max-width:767px){
+    ul{
+        display: table;
+        width: 100%;
+    }
+}
+
 
 
 
