@@ -127,13 +127,16 @@ body{
 }
 
 .footer{
-    height: 220px;
+    min-height: 220px;
+    height: auto;
+    margin-top: 3rem;
     width: 100%;
     background-color: black;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 2rem;
 }
 .footer_box{
     height: 230px;
@@ -189,6 +192,20 @@ select{
 }
 input[type=button]:hover{
     background-color: rgb(172, 112, 2);
+}
+.contact{
+    width: 100%;
+    height: 450px;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_content{
+    width: 45%;
+    height: 440px;
+    border: 0px solid green;
+    float: left;
 }
 
 
